@@ -61,13 +61,13 @@ const CONFIG = {
 			id: '2',
 			name: 'Mail',
 			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://mail.google.com',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
+			name: 'iCorsi',
 			icon: 'trello',
-			link: 'https://todoist.com',
+			link: 'https://www.icorsi.ch/',
 		},
 		{
 			id: '4',
