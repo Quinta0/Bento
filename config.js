@@ -169,12 +169,12 @@ const CONFIG = {
 					link: 'https://www.dribbble.com',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'Champagne',
+					link: 'https://champagne.pages.dev/',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'Claude',
+					link: 'https://claude.ai/new',
 				},
 			],
 		},
