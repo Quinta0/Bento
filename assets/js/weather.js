@@ -2,7 +2,7 @@
 // │││├┤ ├─┤ │ ├─┤├┤ ├┬┘
 // └┴┘└─┘┴ ┴ ┴ ┴ ┴└─┘┴└─
 // Functions to setup Weather widget.
-
+require('dotenv').config();
 const iconElement = document.querySelector('.weatherIcon');
 const tempElement = document.querySelector('.weatherValue p');
 const descElement = document.querySelector('.weatherDescription p');
@@ -15,7 +15,7 @@ weather.temperature = {
 var tempUnit = CONFIG.weatherUnit;
 
 const KELVIN = 273.15;
-const key = `${CONFIG.weatherKey}`;
+const key = process.env.WEATHER || CONFIG.weatherKey;
 setPosition();
 
 function setPosition(position) {
