@@ -6,7 +6,7 @@
 // └─┘└─┘┘└┘└  ┴└─┘└─┘┴└─┴ ┴ ┴ ┴└─┘┘└┘
 require('dotenv').config();
 
-const weatherKey = process.env.weatherKey;
+const weatherKey = process.env.WEATHER;
 const CONFIG = {
 	// ┌┐ ┌─┐┌─┐┬┌─┐┌─┐
 	// ├┴┐├─┤└─┐││  └─┐
